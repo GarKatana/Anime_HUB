@@ -1,0 +1,43 @@
+
+header{
+  font-family: 'Permanent Marker';
+  position: fixed;
+  top:0; left:0; right:0;
+  z-index: 1;
+  background:#111;
+  padding:0px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.logo{
+  font-style:italic;
+  font-size: 25pt;
+  color:gold;
+}
+
+.navbar a{
+  font-style:italic;
+  font-size: 15pt;
+  color:white;
+  margin:0 10px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color:gold;
+}
+.navbar a:active{
+  color:goldenrod;
+}
+@media(min-width:1024px){
+  #menu-bar{
+      display: none;
+  }
+}
+@media (max-width:768px) {
+  .vertical{
+    display: none;
+  }
+  
+}

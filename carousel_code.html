@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/carousel_code.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <title>Anime_HUB</title>
+    <link rel="shortcut icon" type="image/png" href="img/red.png">
+</head>
+<body>
+    
+    <header>
+        <h1 class="logo">Gar-Katana</h1>
+        <nav class="navbar">
+            <div class="vertical">
+            <a href="index.html">Home</a>
+            <a href="">Popular</a>
+            <a href="shop.html">Shop</a>
+            <a href="">Login</a>
+            </div>
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Popular</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>          
+        </nav>
+    </header>
+    <div>
+    <div class="carousel">
+        <button class="carousel_button carousel_button--left is-hidden">
+            <img src="img/left-arrow-svgrepo-com.svg" width="40px"  alt="">
+        </button>
+        <div class="carousel_track-container">
+            <ul class="carousel_track">
+                <li class="carousel_slide current-slide">
+                    <img class="carousel_image" src="img/Vegeta.jpg"  alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="img/Itachi.jpg"  alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image"  src="img/DeathNote.jpg"  alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="img/sao.jpg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="img/sky.jpg" alt="">
+                </li>
+
+            </ul>
+        </div>
+
+        <button class="carousel_button carousel_button--right">
+            <img src="img/right-arrow-svgrepo-com.svg" width="40px"  alt="">
+        </button>
+        <div class="carousel_nav">
+            <button class="carousel_indicator current-slide" ></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+        </div>
+    </div>
+   </div> 
+
+    <footer>
+        <div class="text_footer text"><h1>Social media</h1></div>
+        <div class="text_footer insta"><p><img src="img/insta.png" width="25px" alt=""><a href="https://www.instagram.com/gar_katana/">Instagram</a> </p></div>
+    </footer>
+
+    <script  src="js/carousel_code.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+</html>

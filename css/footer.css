@@ -1,0 +1,25 @@
+footer{
+    background-color:black;
+    font-family: 'Uchen';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text_footer{
+    margin-left:25px;
+    margin-right: 25px;
+    color: gold;
+}
+.insta{
+    font-size: 25pt;
+}
+.insta a{
+    text-decoration: none;
+    color: white;
+}
+.insta a:hover{
+    color:gold;
+}
+.insta a:active{
+    color:goldenrod;
+}

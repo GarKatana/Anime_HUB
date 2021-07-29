@@ -1,0 +1,51 @@
+header{
+    height: 95px;
+}
+footer{
+    height: 100px;
+}
+.navbar{
+    padding-top: 30px;
+}
+.badge-notify{
+    background-color: red;
+    position:relative;
+    top: -20px;
+    right: 10px;
+}
+.container{
+    background-image:url(../img/Goku.jpg) ;
+    background-attachment: fixed;
+    font-family: 'Uchen';
+    margin-top: 145px;
+    margin-bottom: 100px;
+    border:thin solid rgba(255, 255, 255, 0.39);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    height: 800px;
+    width: 950px;
+}
+.col-md-3{
+    border:thin solid rgba(255, 255, 255, 0.39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,2);
+    border-radius: 20px;
+    margin: 20px 20px 20px 50px;
+}
+.row{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.col-md-3 img{
+    margin: 20px;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width:768px){
+    .container{
+        height: auto;
+        width: auto;
+    }
+}
